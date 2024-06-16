@@ -1,0 +1,51 @@
+# Ignore build output
+bin/
+obj/
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+packages/
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore Resharper files
+_ReSharper*/
+
+# Ignore build artifacts
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.vsix
+*.zip
+*.rar
+*.7z
+*.tar.gz
+*.tar.bz2
+*.tar.lzma
+*.tar.xz
+
+# Ignore test results
+TestResults/
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore JetBrains Rider files
+.idea/
+*.sln.iml
+
+# Ignore Mac files
+.DS_Store
+
+# Ignore Windows thumbnail cache files
+Thumbs.db
+
+# Ignore Node.js files
+node_modules/
